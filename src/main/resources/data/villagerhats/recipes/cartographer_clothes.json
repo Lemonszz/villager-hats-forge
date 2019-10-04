@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "L  ",
+    "PL ",
+    "  L"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "villagerhats:cartographer_clothes",
+    "count": 1
+  }
+}

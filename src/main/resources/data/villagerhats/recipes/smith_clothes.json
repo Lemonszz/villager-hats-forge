@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "B B",
+    "BIB",
+    "BIB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "villagerhats:smith_clothes",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "villagerhats:item/hat",
+  "textures": {
+    "layer0": "villagerhats:item/weaponsmith_clothes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "B B",
+    "BFB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:leather"
+    },
+    "F": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "villagerhats:fisherman_clothes",
+    "count": 1
+  }
+}

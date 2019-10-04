@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "LLL",
+    "L L",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "villagerhats:farmer_clothes",
+    "count": 1
+  }
+}

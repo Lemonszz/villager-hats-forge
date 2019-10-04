@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GL"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "L":{
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "villagerhats:cartographer_hat",
+    "count": 1
+  }
+}

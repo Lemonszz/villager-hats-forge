@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#F#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:leather"
+    },
+    "F": {
+      "tag": "forge:feathers"
+    }
+  },
+  "result": {
+    "item": "villagerhats:fletcher_hat",
+    "count": 1
+  }
+}

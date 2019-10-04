@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "LIL"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "villagerhats:armorer_hat",
+    "count": 1
+  }
+}

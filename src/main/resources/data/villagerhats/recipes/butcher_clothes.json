@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "L L",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "villagerhats:butcher_clothes",
+    "count": 1
+  }
+}
