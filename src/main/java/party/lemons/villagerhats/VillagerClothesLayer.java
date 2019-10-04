@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class VillagerClothesLayer<T extends LivingEntity, M extends BipedModel<T>, A extends BipedModel<T>> extends LayerRenderer<T, M>
 {
+
 	public VillagerClothesLayer(IEntityRenderer<T, M> renderer)
 	{
 		super(renderer);
@@ -38,9 +39,14 @@ public class VillagerClothesLayer<T extends LivingEntity, M extends BipedModel<T
 				GlStateManager.scalef(1.01F, 1.01F, 1.01F);
 				if(entity.isSneaking())
 				{
-					GlStateManager.translated(0, 0.250D, 0);
+					//GlStateManager.translated(0, 0.250D, 0);
 				}
 				VillagerModel<T> clothesModel = new VillagerModel<>(0);
+				clothesModel.boxList.get(4).rotateAngleX = getEntityModel().bipedBody.rotateAngleX;
+				clothesModel.boxList.get(4).rotateAngleY = getEntityModel().bipedBody.rotateAngleY;
+				clothesModel.boxList.get(4).rotateAngleZ = getEntityModel().bipedBody.rotateAngleZ;
+
+
 				clothesModel.boxList.get(6).showModel = false;
 				clothesModel.func_217146_a(false);
 
